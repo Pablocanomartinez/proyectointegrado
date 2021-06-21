@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-may-2021, 2:45:54
+    Author     : pablo
+*/
+
+.opacidad-bg-dark{
+    background-color: rgba(40,36,44, .7);
+}
+.opacidad-bg-light{
+    background-color: rgba(256,252,252, .9);
+}
+.letratitulo{
+    font-family: 'Rubik', sans-serif;
+}
+.activo{
+    background-color: rgb(219,51,66);
+    color: white !important;
+}
+.activo:hover{
+    color: black;
+}
+.nav-link{
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        border: 1px solid rgb(154, 154, 154);
+        border-collapse: collapse;
+    }
+
+    td {
+        border-color: rgb(218, 218, 218);
+        position: relative;
+        padding-left: 40% !important;
+        text-align: left;
+    }
+
+    td:before {
+        position: absolute;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        font-weight: 700;
+    }
+
+    .entrenamiento:nth-of-type(1):before {
+        content: "Lunes: ";
+    }
+
+    .entrenamiento:nth-of-type(2):before {
+        content: "Martes: ";
+    }
+
+    .entrenamiento:nth-of-type(3):before {
+        content: "Miercoles: ";
+    }
+
+    .entrenamiento:nth-of-type(4):before {
+        content: "Jueves: ";
+    }
+
+    .entrenamiento:nth-of-type(5):before {
+        content: "Viernes: ";
+    }
+
+    .entrenamiento:nth-of-type(6):before {
+        content: "Sabado: ";
+    }
+    .entrenamiento:nth-of-type(7):before {
+        content: "Domingo: ";
+    }
+
+    .usuario:nth-of-type(1):before {
+        content: "Nombre: ";
+    }
+    
+    .usuario:nth-of-type(2):before {
+        content: "Apellidos: ";
+    }
+    
+    .usuario:nth-of-type(3):before {
+        content: "F.Nacimiento: ";
+    }
+    
+    .usuario:nth-of-type(4):before {
+        content: "Email: ";
+    }
+
+    .usuario:nth-of-type(5):before {
+        content: "Entrenador: ";
+    }
+
+    .usuario:nth-of-type(6):before {
+        content: "Rutina: ";
+    }
+    
+    .rutina:nth-of-type(1):before {
+        content: "Nombre: ";
+    }
+
+    .rutina:nth-of-type(2):before {
+        content: "F.Creacion: ";
+    }
+
+    .rutina:nth-of-type(3):before {
+        content: "Entrenador: ";
+    }
+
+    .entrenador:nth-of-type(1):before {
+        content: "Nombre: ";
+    }
+
+    .entrenador:nth-of-type(2):before {
+        content: "Apellidos: ";
+    }
+
+    .entrenador:nth-of-type(3):before {
+        content: "Admin: ";
+    }
+}
